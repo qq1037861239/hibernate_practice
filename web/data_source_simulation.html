@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Source......</title>
+    <link rel="stylesheet" href="css/data_source_simulation.css">
+    <script type="text/javascript" src="js/createDatas.js"></script>
+</head>
+<body>
+<div class="wall">
+    <div class="main">
+        <div class="view-box">
+        </div>
+    </div>
+    <div class="button-box">
+        <input type="button" value="Begin!" id="begin">
+        <input type="button" value="Stop!" id="stop">
+    </div>
+</div>
+
+<script>
+    document.getElementById("begin").onclick = loopGen;
+    document.getElementById("stop").onclick = stopGen;
+</script>
+</body>
+</html>

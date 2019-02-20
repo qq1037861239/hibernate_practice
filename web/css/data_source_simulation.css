@@ -1,0 +1,29 @@
+html, body, .wall {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 600px;
+    height: 200px;
+    background-color: khaki;
+    border-radius: 25px;
+    margin: 200px auto 0;
+}
+
+.view-box {
+    position: absolute;
+    width: 500px;
+    height: 150px;
+    background-color: salmon;
+    margin: 25px 50px;
+}
+
+.button-box {
+    width: 600px;
+    height: 100px;
+    background-color: cadetblue;
+    margin: 0 auto;
+}

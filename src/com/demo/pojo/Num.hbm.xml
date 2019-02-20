@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.demo.pojo.Num" table="num">
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+
+        <property name="top_d" column="top_d"/>
+        <property name="bottom_d" column="bottom_d"/>
+        <property name="left_d" column="left_d"/>
+        <property name="right_d" column="right_d"/>
+        <property name="dot" column="dot"/>
+    </class>
+</hibernate-mapping>
