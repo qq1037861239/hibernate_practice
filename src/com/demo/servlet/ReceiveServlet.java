@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.BufferedReader;
 import java.io.IOException;
 
+
 @WebServlet(name = "receive", urlPatterns = "/receive")
 public class ReceiveServlet extends HttpServlet {
     @Override
